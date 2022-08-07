@@ -63,6 +63,7 @@ body:
     attributes:
       label: Goals
       description: What are your goals that you want to achieve with your contribution??
+      placeholder: "Professional validators. Supported Bitsong from first testnet. Fast upgrades and good reaction."
   - type: textarea
     id: tiemtable
     attributes:
