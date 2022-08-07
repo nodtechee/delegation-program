@@ -22,8 +22,8 @@ body:
       label: "On Chain Data"
       description: Please confirm that the basic information (validator contact information (website, twitter, telegram, etc.), details & avatar/logo) is set on chain
       options:
-        -[X] label: I confirm to have set my validator information on chain
-      required: true
+        - [x]label: I confirm to have set my validator information on chain
+          required: true
   - type: input
     id: contact
     attributes:
@@ -55,6 +55,7 @@ body:
     attributes:
       label: Details
       description: Please provide all the information in regards to your selected application categories
+      placeholder: "Professional validators. Supported Bitsong from first testnet. Fast upgrades and good reaction."
     validations:
       required: true
   - type: textarea
