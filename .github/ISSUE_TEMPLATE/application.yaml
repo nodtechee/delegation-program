@@ -14,7 +14,7 @@ body:
     attributes:
       label: Validator address
       description: "Please provide the address of your validator "
-      placeholder: "bitsongvaloper..."
+      placeholder: "bitsongvaloper1aakd7kru6n9l2ty565j3t893ygadc9xz0c65mk"
     validations:
       required: true
   - type: checkboxes
@@ -22,14 +22,14 @@ body:
       label: "On Chain Data"
       description: Please confirm that the basic information (validator contact information (website, twitter, telegram, etc.), details & avatar/logo) is set on chain
       options:
-        - label: I confirm to have set my validator information on chain
+        -[X] label: I confirm to have set my validator information on chain
           required: true
   - type: input
     id: contact
     attributes:
       label: Contact information
       description: "Please provide a possibility to contact you"
-      placeholder: "Discord/Telegram/Mail"
+      placeholder: "MisterIvan#2816 , @zVOLz"
     validations:
       required: true
   - type: dropdown
@@ -57,12 +57,12 @@ body:
       description: Please provide all the information in regards to your selected application categories
     validations:
       required: true
-  - type: textarea
+  - type: Professional validators. Supported Bitsong from first testnet. Fast upgrades and good reaction.
     id: goals
     attributes:
       label: Goals
       description: What are your goals that you want to achieve with your contribution??
-  - type: textarea
+  - type: Support bitsong, develop and progress ourselves
     id: tiemtable
     attributes:
       label: Timetable
