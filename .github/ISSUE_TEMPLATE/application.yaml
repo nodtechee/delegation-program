@@ -22,7 +22,7 @@ body:
       label: "On Chain Data"
       description: Please confirm that the basic information (validator contact information (website, twitter, telegram, etc.), details & avatar/logo) is set on chain
       options:
-        - [x]label: I confirm to have set my validator information on chain
+        - label: I confirm to have set my validator information on chain
           required: true
   - type: input
     id: contact
