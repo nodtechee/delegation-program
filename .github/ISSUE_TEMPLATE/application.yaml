@@ -57,12 +57,12 @@ body:
       description: Please provide all the information in regards to your selected application categories
     validations:
       required: true
-  - type: Professional validators. Supported Bitsong from first testnet. Fast upgrades and good reaction.
+  - type: textarea
     id: goals
     attributes:
       label: Goals
       description: What are your goals that you want to achieve with your contribution??
-  - type: Support bitsong, develop and progress ourselves
+  - type: textarea
     id: tiemtable
     attributes:
       label: Timetable
